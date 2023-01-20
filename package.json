@@ -1,0 +1,29 @@
+{
+  "name": "tree-sitter-drools",
+  "version": "0.0.1",
+  "description": "drools grammar for the tree-sitter parsing library",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/errantepiphany/tree-sitter-drools.git"
+  },
+  "keywords": [
+    "drools",
+    "drl"
+  ],
+  "author": "David Ward",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/errantepiphany/tree-sitter-drools/issues"
+  },
+  "homepage": "https://github.com/errantepiphany/tree-sitter-drools",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  }
+}
