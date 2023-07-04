@@ -4,7 +4,8 @@
   "description": "drools grammar for the tree-sitter parsing library",
   "main": "bindings/node",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,6 @@
   },
   "devDependencies": {
     "tree-sitter-cli": "^0.20.7"
-  }
+  },
+  "gypfile": true
 }
